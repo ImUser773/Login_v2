@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Login</string>
     <string name="logout">logout</string>
+    <string name="edt_username">username</string>
+    <string name="edt_password">password</string>
+    <string name="edt_email">email</string>
+    <string name="btn_addImage">เพิ่มรูปภาพ</string>
+    <string name="btn_register">สมัครสมาชิก</string>
+    <string name="str_register">สมัครสมาชิก</string>
 </resources>

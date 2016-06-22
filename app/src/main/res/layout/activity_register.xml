@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.droid_wizard.iamuser773.login.MainActivity"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:visibility="visible"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:maxLines="1"
+            android:hint="@string/edt_username"
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:hint="@string/edt_password"
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:maxLines="1"
+            android:hint="@string/edt_email"
+            android:id="@+id/edit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="@string/btn_addImage"
+            android:id="@+id/button_image"
+            android:layout_width="@dimen/button_login_width"
+            android:layout_height="@dimen/button_login_height"
+            android:layout_gravity="center" />
+        <Button
+            android:text="@string/btn_register"
+            android:id="@+id/button_register"
+            android:layout_width="@dimen/button_login_width"
+            android:layout_height="@dimen/button_login_height"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

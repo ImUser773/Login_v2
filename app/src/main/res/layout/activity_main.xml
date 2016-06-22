@@ -31,7 +31,7 @@
         <Button
             android:visibility="visible"
             android:id="@+id/button_register"
-            android:background="@drawable/login_selector"
+            android:text="@string/str_register"
             android:layout_gravity="center"
             android:layout_width="@dimen/button_login_width"
             android:layout_height="@dimen/button_login_height"
